@@ -1,0 +1,18 @@
+{
+  "name": "effect-language-service-performance-repro",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@effect/language-service": "^0.41.1",
+    "ts-patch": "^3.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "effect": "^3.18.2",
+    "effect-octokit-layer": "^1.13.1"
+  }
+}
